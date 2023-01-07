@@ -1,1 +1,193 @@
 
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navclass {
+    background-color: rgb(252, 111, 60);
+    height: 10vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: sticky;
+    padding-left: 2%;
+}
+
+.inputtype1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.inputtype2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.inputtype3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.place-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#recipeSection {
+    text-align: center;
+}
+
+.extracard-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.extracard {
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.extracard-info {
+    height: 24vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(252, 111, 60);
+    color: white;
+    align-items: center;
+}
+
+#generateBtn {
+    background-color: rgb(252, 111, 60);
+    border-color: rgb(252, 111, 60);
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+}
+
+.btn {
+    color: white;
+    border-color: white;
+    background-color: rgb(252, 111, 60);
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .inputtype1,
+    .inputtype2,
+    .getinput,
+    #gender,
+    #activity {
+        flex-direction: column;
+        margin: 2%;
+    }
+}
+
+@media (max-width: 630px) {
+    .extracard-main {
+        flex-direction: column;
+        margin: 20%;
+        display: flex;
+        justify-items: center;
+    }
+    .extracard {
+        height: 50vh;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .extracard-info {
+        height: 24vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-content: space-evenly;
+        background-color: rgb(252, 111, 60);
+        color: white;
+    }
+}
+
+.extracard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* liitems */
+
+.liitems {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 218, 218);
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+ol.orderlistitems {
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-between; */
+    align-items: center;
+    /* padding: 10px; */
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.recipetablemaindiv {
+    background-color: rgb(201, 199, 199);
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 10px; */
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+
+/* th {
+    color: rgb(252, 111, 60);
+}
+
+tr {
+    border: 1px solid black;
+} */
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#stepSection {
+    margin-top: 0px;
+}
