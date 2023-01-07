@@ -1,1 +1,77 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js project Meal Planner</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <nav class="navclass">
+            Meal Planner
+        </nav>
+
+        <form>
+            <div class="inputtype1">
+                <input class="getinput" type="text" placeholder="Enter Height" id="height" />
+                <input class="getinput" type="text" placeholder="Enter Weight" id="weight" />
+                <input class="getinput" type="text" placeholder="Enter Age" id="age" />
+            </div>
+
+            <div class="inputtype2">
+                <select id="gender" class="getinput text">
+                    <option selected disabled hidden value="select gender">select gender</option>
+                    <option value="male" >male</option>
+                    <option value="female">female</option>
+                </select>
+                <select id="activity" class="getinput text text2">
+                    <option selected hidden disabled>select physical activity</option>
+                    <option value="light" >light</option>
+                    <option value="moderate">moderate</option>
+                    <option value="active">active</option>
+                </select>
+            </div>
+
+            <div class="inputtype3">
+                <button type="button" id="generateBtn">Generating Meals</button>
+            </div>
+
+
+        </form>
+        <!-- cards section -->
+        <div class="extracard-main" id="cardsid">
+
+        </div>
+
+
+        <div class="cards">
+            <section class="place-item" id="cardsid">
+
+            </section>
+
+            <div class="recipetablemaindiv">
+                <section id="recipeSection">
+
+                </section>
+                <section id="stepSection">
+
+                </section>
+                <section id="equipmentSection">
+
+                </section>
+
+            </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
