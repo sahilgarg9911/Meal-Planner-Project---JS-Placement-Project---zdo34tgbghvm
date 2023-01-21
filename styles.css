@@ -2,6 +2,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* background-image: url(""); */
+    background-color: rgb(252, 202, 183);
 }
 
 .navclass {
@@ -13,6 +15,20 @@ body {
     color: white;
     position: sticky;
     padding-left: 2%;
+}
+
+.extracard {
+    border-radius: 5px;
+}
+
+.extracard-info {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .inputtype1 {
@@ -80,13 +96,20 @@ body {
 }
 
 .btn {
+    border: 1px solid rgb(250, 189, 167);
     color: white;
-    border-color: white;
+    /* border-color: rgb(252, 111, 60); */
     background-color: rgb(252, 111, 60);
     cursor: pointer;
     width: 50%;
     margin: auto;
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.extracard-info button:hover {
+    background-color: rgb(247, 66, 0);
+    ;
 }
 
 @media (max-width: 600px) {
@@ -98,7 +121,7 @@ body {
         flex-direction: column;
         margin: 2%;
     }
-        .recipetablemaindiv {
+    .recipetablemaindiv {
         width: 89%;
         display: flex;
         flex-direction: column;
